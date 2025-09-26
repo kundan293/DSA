@@ -1,4 +1,4 @@
-package PACKAGE_NAME.Arrays;
+package Complete_java_Dsa.Arrays;
 
 public class Multidimen {
         public static void main(String[] args) {
