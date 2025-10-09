@@ -24,3 +24,7 @@ import java.util.*;
         System.out.println("the  average  su of  the  arry is "+result);
     }
 }
+
+// ldfmm
+// klmldfmd
+// kmdlgfmm
