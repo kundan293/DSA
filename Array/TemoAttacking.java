@@ -5,16 +5,20 @@ public class TemoAttacking {
 
     }
 
-    public int findPoisonedDuration(int[] timeSeries, int duration) {
-         int  count = 0;
 
-         int n = timeSeries.length;
-         for(int i=1; i<n ; i++){
-            count += Math.min(duration, timeSeries[i]-timeSeries[i-1]);
-            count +=duration;
+        public int findPoisonedDuration(int[] timeSeries, int duration) {
 
-         }
-        return count;
+            int n  = timeSeries.length;
+            if(n == 0) return 0;
+            int  count = duration ;
+            for (int i = 1 ; i<n ; i++){
+                count  +=  Math.min(duration , timeSeries[i]-timeSeries[i-1]);
 
-    }:
-}
+
+
+            }
+            return  count;
+
+        }
+    }
+
